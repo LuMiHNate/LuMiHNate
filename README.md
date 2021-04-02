@@ -1,5 +1,5 @@
 
-Original App Design Project - README Template
+Original App Design Project
 ===
 
 # APP_NAME_HERE
@@ -16,8 +16,8 @@ Original App Design Project - README Template
 
 ### App Evaluation
 - **Story:** Meeting new people through music, and discovering new music through people.
-- **Market:** Spotify users are *our app*'s market. Ultilizing Spotify's API and the idea of the app itself, *Our app* has unlimited potential for scaling with multiple features.
-- **Habit:** Essentially we will be building a niche social media combined with music sharing. *Our app* will be as addictive as other platforms with undoubetably a quite sizable userbase.
+- **Market:** Spotify users are *our app*'s market. Utilizing Spotify's API and the idea of the app itself, *Our app* has unlimited potential for scaling with multiple features.
+- **Habit:** Essentially we will be building a niche social media combined with music sharing. *Our app* will be as addictive as other platforms with undoubtably a quite sizable user base.
 - **Scope:** Based on how far we can take this application, can also easily scale down the features with respect to our time restrictions.
 
  ## Product Spec
@@ -61,8 +61,7 @@ Original App Design Project - README Template
    * ...
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+[PDF of Hand/Digital Sketched Wireframe](https://github.com/LuMiHNate/LuMiHNate/blob/main/Wavelengths.pdf)
 
 ### [BONUS] Digital Wireframes & Mockups
 
