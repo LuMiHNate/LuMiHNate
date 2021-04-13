@@ -61,7 +61,7 @@ Original App Design Project
    * ...
 
 ## Wireframes
-[PDF of Hand/Digital Sketched Wireframe](https://github.com/LuMiHNate/LuMiHNate/blob/main/Wavelengths.pdf)
+[PDF of Hand/Digital Sketched Wireframe](https://github.com/LuMiHNate/LuMiHNate/blob/main/wireframes/first_wireframe.pdf)
 
 ### [BONUS] Digital Wireframes & Mockups
 
