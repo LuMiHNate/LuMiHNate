@@ -2,7 +2,7 @@
 Original App Design Project
 ===
 
-# APP_NAME_HERE
+# hz
 
 ## Table of Contents
 1. [Overview](#Overview)
