@@ -1,5 +1,5 @@
 
-Original App Design Project - README Template
+Original App Design Project
 ===
 
 # HZ
@@ -40,7 +40,7 @@ Social platform for music lovers using Spotify API Integration.
 * User can add/follow them
 * User can like a post/playlist and comments on it ...
 * user can decline/ignore the requests(chatting)
-* 
+
 
 ### 2. Screen Archetypes
 
@@ -61,7 +61,7 @@ Social platform for music lovers using Spotify API Integration.
 * [current song and list of who is listening the same song]
 * Discovery page[new songs,most popular song,liked  by user singer's songs]
 * Chat page[chat list]
-* ...
+
 
 ### 3. Navigation
 
@@ -93,11 +93,15 @@ Social platform for music lovers using Spotify API Integration.
 ## Wireframes
 <img src ="https://i.imgur.com/EernKaK.jpg" width=600><br>
 
-[PDF of Hand/Digital Sketched Wireframe](https://github.com/LuMiHNate/LuMiHNate/blob/main/Wavelengths.pdf)
+[PDF of Hand/Digital Sketched Wireframe](https://github.com/LuMiHNate/hz/blob/main/wireframes/first_wireframe.pdf)
 
 ### [BONUS] Digital Wireframes & Mockups
+
 <img src ="https://i.imgur.com/SpcGmL3.jpg" width=600><br>
+
 ### [BONUS] Interactive Prototype
+
+[Interactive Prototype](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-interactive-prototype.gif)
 
 ## Schema 
 [This section will be completed in Unit 9]
