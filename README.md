@@ -99,6 +99,8 @@ Social platform for music lovers using Spotify API Integration.
 
 <img src ="https://i.imgur.com/SpcGmL3.jpg" width=600><br>
 
+[Digital Wireframe Mockup](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-digital-wireframe-mockup.png)
+
 ### [BONUS] Interactive Prototype
 
 [Interactive Prototype](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-interactive-prototype.gif)
