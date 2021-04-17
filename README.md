@@ -97,6 +97,7 @@ Social platform for music lovers using Spotify API Integration.
 
 ### [BONUS] Digital Wireframes & Mockups
 <blockquote class="imgur-embed-pub" lang="en" data-id="LqAHsrP"><a href="https://imgur.com/LqAHsrP">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src =https://drive.google.com/drive/folders/1tV-gw-9RW3pSuG7Q-uV_ltEtWsG1urLd?usp=sharing>
 
 ### [BONUS] Interactive Prototype
 
