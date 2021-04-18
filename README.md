@@ -2,7 +2,7 @@
 Original App Design Project
 ===
 
-# hz
+# HZ
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -12,60 +12,98 @@ Original App Design Project
 
 ## Overview
 ### Description
-[Description of your app]
+Social platform for music lovers using Spotify API Integration.
 
 ### App Evaluation
 - **Story:** Meeting new people through music, and discovering new music through people.
-- **Market:** Spotify users are *our app*'s market. Utilizing Spotify's API and the idea of the app itself, *Our app* has unlimited potential for scaling with multiple features.
-- **Habit:** Essentially we will be building a niche social media combined with music sharing. *Our app* will be as addictive as other platforms with undoubtably a quite sizable user base.
+- **Market:** Spotify users are hz's market. Ultilizing Spotify's API and the idea of the app itself, hz has unlimited potential for scaling with multiple features.
+- **Habit:** Essentially we will be building a niche social media combined with music sharing. hz will be as addictive as other platforms with a quite sizable userbase.
 - **Scope:** Based on how far we can take this application, can also easily scale down the features with respect to our time restrictions.
 
- ## Product Spec
+## Product Spec
 
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can create new account
+* User can login[fill in your required user stories here]
+* User can see other users  who have same taste in music...
+* User can pick favorite songs/artists.
+* user can chat with other users who has simillar taste.
+* User can post with the comments.
+* User can go private. 
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+[fill in your required user stories here]
+* User can add/follow them
+* User can like a post/playlist and comments on it ...
+* user can decline/ignore the requests(chatting)
+
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Sign up/Login 
+*[ Create a new account. Flow into setup screen (only for new users/account). Asks for name/username, bithday, and location. list associated required story here]
+* [Enter into existing account. Asks for username and password...]
+* Home page [list second screen here]
+* Upper bar [logoff , settings]
+* Bottom bar
+* home button [brings to home page]
+* profile button[brings to profile page]
+* Now playing button[brings to Now playing page]
+* Discovery button[brings to discovery page]
+* Chat button[brings to chat page]
+* Profile page
+* [Detail page:Image, account holder's name, public and private playlist ]
+* Now playing page
+* [current song and list of who is listening the same song]
+* Discovery page[new songs,most popular song,liked  by user singer's songs]
+* Chat page[chat list]
+
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home[fill out your first tab]
+* Profile[fill out your second tab]
+* Now Playing[fill out your third tab]
+* Discovery[fill out your fourth tab]
+* Chat page[fill out your fifth tab]
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Profile page[list first screen here]
+* Music room [list screen navigation here]
+* Post room[list screen navigation here]
+
+* Now Playing [list second screen here]
+* Music Room[list screen navigation here]
+* Post Room[list screen navigation here]
+* Message Room[list screen navigation here]
+
+* Discovery [list third screen here]
+* Details[list screen navigation here]
+
+* Chat page[fourth screen here]
+* Message Room[list screen navigation here]
 
 ## Wireframes
-[PDF of Hand/Digital Sketched Wireframe](https://github.com/LuMiHNate/LuMiHNate/blob/main/wireframes/first_wireframe.pdf)
+<img src ="https://i.imgur.com/EernKaK.jpg" width=600><br>
+
+[PDF of Hand/Digital Sketched Wireframe](https://github.com/LuMiHNate/hz/blob/main/wireframes/first_wireframe.pdf)
 
 ### [BONUS] Digital Wireframes & Mockups
 
+<img src ="https://i.imgur.com/SpcGmL3.jpg" width=600><br>
+
+[Digital Wireframe Mockup](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-digital-wireframe-mockup.png)
+
 ### [BONUS] Interactive Prototype
+
+[Interactive Prototype](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-interactive-prototype.gif)
 
 ## Schema 
 [This section will be completed in Unit 9]
@@ -101,4 +139,4 @@ Spotify Social Media: Mobile App Dev - App Brainstorming
 ######    - **Scope:** Instagram started out extremely narrow focused, just posting pics and viewing feeds. Has expanded to a somewhat larger scope including "Instagram Stories" (a la SnapChat) and messenger features. 
 
 
- -->
+-->
