@@ -106,9 +106,30 @@ Social platform for music lovers using Spotify API Integration.
 [Interactive Prototype](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-interactive-prototype.gif)
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| objectId      | String   | unique id for the user post (default field) |
+| author        | Pointer to User| image author |
+| image         | File     | image that user posts |
+| caption       | String   | image caption by author |
+| commentsCount | Number   | number of comments that has been posted to an image |
+| likesCount    | Number   | number of likes for the post |
+| createdAt     | DateTime | date when post is created (default field) |
+| loggedIn     | Boolean | user is connected to their Spotify account |
+| location     | String | country where the user resides |
+| isFavorited     | Boolean | when user "likes" a post |
+| song     | JSON Objects | user's desired Spotify song |
+| playlist     | JSON Objects | user's desired Spotify playlist |
+| nowPlaying     | JSON Objects | calls to play desired Spotify song |
+| albumArt     | JSON Objects | calls to display album artwork from Spotify |
+| isFollowed     | Boolean | indicates whether user is following another user |
+| isAdded     | JSON Objects | adds song to Spotify liked music |
+| isPublic     | Boolean | indicates whether a user has a public or private profile |
+| wallpaper     | File | image profile wallpaper |
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
