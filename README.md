@@ -133,6 +133,13 @@ Social platform for music lovers using Spotify API Integration.
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
+|    CRUD       | HTTP Verb| Example |
+| ------------- | -------- | ------------|
+| Create        | POST     | Creates resources |
+| Read          | GET      | Fetching posts for a user's feed |
+| Update        | PUT      | 	Changes and/or replaces resources or collections |
+| Delete        | DELETE   | 	Deletes resources|
+
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
 <!-- 
