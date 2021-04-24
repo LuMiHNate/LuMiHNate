@@ -106,13 +106,123 @@ Social platform for music lovers using Spotify API Integration.
 [Interactive Prototype](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-interactive-prototype.gif)
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| objectId      | String   | unique id for the user post (default field) |
+| author        | Pointer to User| image author |
+| image         | File     | image that user posts |
+| caption       | String   | image caption by author |
+| commentsCount | Number   | number of comments that has been posted to an image |
+| likesCount    | Number   | number of likes for the post |
+| createdAt     | DateTime | date when post is created (default field) |
+| loggedIn     | Boolean | user is connected to their Spotify account |
+| location     | String | country where the user resides |
+| isFavorited     | Boolean | when user "likes" a post |
+| song     | JSON Objects | user's desired Spotify song |
+| playlist     | JSON Objects | user's desired Spotify playlist |
+| nowPlaying     | JSON Objects | calls to play desired Spotify song |
+| albumArt     | JSON Objects | calls to display album artwork from Spotify |
+| isFollowed     | Boolean | indicates whether user is following another user |
+| isAdded     | JSON Objects | adds song to Spotify liked music |
+| isPublic     | Boolean | indicates whether a user has a public or private profile |
+| wallpaper     | File | image profile wallpaper |
+
 ### Networking
 - [Add list of network requests by screen ]
+
+* **Home Feed Screen**
+  * (Read/GET) Query all posts where user is author
+  
+          let query = PFQuery(className:"Post")
+          query.whereKey("author", equalTo: currentUser)
+          query.order(byDescending: "createdAt")
+          query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+             if let error = error { 
+                print(error.localizedDescription)
+             } else if let posts = posts {
+                print("Successfully retrieved \(posts.count) posts.")
+            // TODO: Do something with posts...
+             }
+          }
+      
+     
+  * (Create/POST) Create a new like on a post
+  * (Delete) Delete existing like
+  * (Create/POST) Create a new comment on a post
+  
+        let comment = PFObject(className: "Comments")
+           comment["text"] = text
+           comment["post"] = selectedPost
+           comment["author"] = PFUser.current()!
+           selectedPost.add(comment, forKey: "comments")
+           selectedPost.saveInBackground { (success, error) in
+               if success{
+                   print("Comment saved")
+               }else {
+                   print("Error saving comment")
+               }
+           }
+  * (Delete) Delete existing comment
+  
+* **Create Post Screen**
+  * (Create/POST) Create a new post object
+  
+  
+            let user = post["author"] as! PFUser
+            cell.usernameLabel.text = user.username
+            // !>?
+            cell.captionLabel.text = post["caption"] as! String
+            
+            let imageFile = post["image"] as! PFFileObject
+            let urlString = imageFile.url!
+            let url = URL(string: urlString)!
+            cell.photoView.af_setImage(withURL: url)
+            post.saveInBackground { (success, error) in
+            if success{
+                print("Post saved")
+            }else {
+                print("Error saving Post")
+                
+            }
+        }
+        
+
+* **Profile Screen**
+  * (Read/GET) Query logged in user object
+  
+                 PFUser.logInWithUsername(inBackground: username, password: password) { (user, error) in
+                     if user != nil{
+                         self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                     }else{
+                         print("Error:\( String(describing: error?.localizedDescription))")
+                     }
+                 }
+             }
+  * (Update/PUT) Update user profile image
+
 - [Create basic snippets for each Parse network request]
+
+|    CRUD       | HTTP Verb| Description |
+| ------------- | -------- | ------------|
+| Create        | POST     | Creates resources |
+| Read          | GET      | Fetching posts for a user's feed |
+| Update        | PUT      | 	Changes and/or replaces resources or collections |
+| Delete        | DELETE   | 	Deletes resources|
+
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+| HTTP Verb | Endpoint | Description |
+| ----------| -------- | ------------|
+|  GET      | /users   |Gets a User's Profile |
+|  GET      | /me      |Gets Current User's Profile|
+|  GET      | /search  |Search for an Item |
+|  GET      |/new-releases|Gets All New Releases|
+|  GET      |/categories|Get All Categories |
+|  GET      |/recommendations|Get Recommendations|
+|  GET      | /artists/{id} |Get an Artist |
 
 <!-- 
 Spotify Social Media: Mobile App Dev - App Brainstorming
