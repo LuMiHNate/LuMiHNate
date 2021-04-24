@@ -152,6 +152,19 @@ Social platform for music lovers using Spotify API Integration.
   * (Create/POST) Create a new like on a post
   * (Delete) Delete existing like
   * (Create/POST) Create a new comment on a post
+  
+        let comment = PFObject(className: "Comments")
+           comment["text"] = text
+           comment["post"] = selectedPost
+           comment["author"] = PFUser.current()!
+           selectedPost.add(comment, forKey: "comments")
+           selectedPost.saveInBackground { (success, error) in
+               if success{
+                   print("Comment saved")
+               }else {
+                   print("Error saving comment")
+               }
+           }
   * (Delete) Delete existing comment
   
 * **Create Post Screen**
@@ -179,6 +192,15 @@ Social platform for music lovers using Spotify API Integration.
 
 * **Profile Screen**
   * (Read/GET) Query logged in user object
+  
+                 PFUser.logInWithUsername(inBackground: username, password: password) { (user, error) in
+                     if user != nil{
+                         self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                     }else{
+                         print("Error:\( String(describing: error?.localizedDescription))")
+                     }
+                 }
+             }
   * (Update/PUT) Update user profile image
 
 - [Create basic snippets for each Parse network request]
