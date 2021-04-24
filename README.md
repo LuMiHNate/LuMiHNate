@@ -158,7 +158,7 @@ Social platform for music lovers using Spotify API Integration.
   * (Create/POST) Create a new post object
   
   
-    let user = post["author"] as! PFUser
+            let user = post["author"] as! PFUser
             cell.usernameLabel.text = user.username
             // !>?
             cell.captionLabel.text = post["caption"] as! String
