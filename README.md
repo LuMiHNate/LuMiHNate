@@ -136,17 +136,17 @@ Social platform for music lovers using Spotify API Integration.
 * **Home Feed Screen**
   * (Read/GET) Query all posts where user is author
   
-      let query = PFQuery(className:"Post")
-      query.whereKey("author", equalTo: currentUser)
-      query.order(byDescending: "createdAt")
-      query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-         if let error = error { 
-            print(error.localizedDescription)
-         } else if let posts = posts {
-            print("Successfully retrieved \(posts.count) posts.")
-        // TODO: Do something with posts...
-         }
-      }
+          let query = PFQuery(className:"Post")
+          query.whereKey("author", equalTo: currentUser)
+          query.order(byDescending: "createdAt")
+          query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+             if let error = error { 
+                print(error.localizedDescription)
+             } else if let posts = posts {
+                print("Successfully retrieved \(posts.count) posts.")
+            // TODO: Do something with posts...
+             }
+          }
       
      
   * (Create/POST) Create a new like on a post
