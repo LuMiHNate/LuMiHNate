@@ -134,7 +134,7 @@ Social platform for music lovers using Spotify API Integration.
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 
-|    CRUD       | HTTP Verb| Example |
+|    CRUD       | HTTP Verb| Description |
 | ------------- | -------- | ------------|
 | Create        | POST     | Creates resources |
 | Read          | GET      | Fetching posts for a user's feed |
@@ -142,6 +142,16 @@ Social platform for music lovers using Spotify API Integration.
 | Delete        | DELETE   | 	Deletes resources|
 
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+| HTTP Verb | Endpoint | Description |
+| ----------| -------- | ------------|
+|  GET      | /users   |Gets a User's Profile |
+|  GET      | /me      |Gets Current User's Profile|
+|  GET      | /search  |Search for an Item |
+|  GET      |/new-releases|Gets All New Releases|
+|  GET      |/categories|Get All Categories |
+|  GET      |/recommendations|Get Recommendations|
+|  GET      | /artists/{id} |Get an Artist |
 
 <!-- 
 Spotify Social Media: Mobile App Dev - App Brainstorming
