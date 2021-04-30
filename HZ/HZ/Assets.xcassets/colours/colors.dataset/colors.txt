@@ -1,0 +1,25 @@
+Hz app
+
+Main-Colours: 
+
+#65747b
+#4c5e67
+#334753
+#1a313f
+#0d2635
+#072030
+#001a2a
+#001420
+#000d15
+#000000
+
+Text-Colours:
+
+#FFFFFF
+#E9EBED
+#68e3b5
+
+Spotify-Colours:
+
+Green --> #1DB954
+Black --> #191414
