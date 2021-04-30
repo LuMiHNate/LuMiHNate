@@ -284,7 +284,7 @@ NS_ASSUME_NONNULL_BEGIN
                                           destination:(nullable NSURL * (^)(NSURL *targetPath, NSURLResponse *response))destination
                                     completionHandler:(nullable void (^)(NSURLResponse *response, NSURL * _Nullable filePath, NSError * _Nullable error))completionHandler;
 
-/**
+/*
  Creates an `NSURLSessionDownloadTask` with the specified resume data.
 
  @param resumeData The data used to resume downloading.

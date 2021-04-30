@@ -145,7 +145,7 @@ NS_ASSUME_NONNULL_BEGIN
                       failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure DEPRECATED_ATTRIBUTE;
 
 
-/**
+/*
  Creates and runs an `NSURLSessionDataTask` with a `GET` request.
 
  @param URLString The URL string used to create the request URL.
@@ -162,7 +162,7 @@ NS_ASSUME_NONNULL_BEGIN
                                success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
                                failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure;
 
-/**
+/*
  Creates and runs an `NSURLSessionDataTask` with a `HEAD` request.
 
  @param URLString The URL string used to create the request URL.
@@ -192,7 +192,7 @@ NS_ASSUME_NONNULL_BEGIN
                        success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
                        failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure DEPRECATED_ATTRIBUTE;
 
-/**
+/*
  Creates and runs an `NSURLSessionDataTask` with a `POST` request.
 
  @param URLString The URL string used to create the request URL.
@@ -209,7 +209,7 @@ NS_ASSUME_NONNULL_BEGIN
                                 success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
                                 failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure;
 
-/**
+/*
  Creates and runs an `NSURLSessionDataTask` with a multipart `POST` request.
 
  @param URLString The URL string used to create the request URL.
@@ -226,7 +226,7 @@ NS_ASSUME_NONNULL_BEGIN
                        success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
                        failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure DEPRECATED_ATTRIBUTE;
 
-/**
+/*
  Creates and runs an `NSURLSessionDataTask` with a multipart `POST` request.
 
  @param URLString The URL string used to create the request URL.
