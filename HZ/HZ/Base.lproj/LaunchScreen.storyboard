@@ -16,16 +16,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hz-logo-ds" translatesAutoresizingMaskIntoConstraints="NO" id="0lq-RT-kF2">
-                                <rect key="frame" x="20" y="227" width="374" height="316"/>
+                                <rect key="frame" x="57" y="232" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="225-K1-SHj"/>
+                                    <constraint firstAttribute="width" constant="300" id="6I7-vb-Wdg"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.396078431372549" green="0.45490196078431372" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0lq-RT-kF2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="183" id="5bA-x6-kE7"/>
-                            <constraint firstItem="0lq-RT-kF2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="Bgw-P1-1N4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0lq-RT-kF2" secondAttribute="bottom" constant="319" id="cSz-v9-9bo"/>
-                            <constraint firstItem="0lq-RT-kF2" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="zk2-zs-cFZ"/>
+                            <constraint firstItem="0lq-RT-kF2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="188" id="W24-mh-F9h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0lq-RT-kF2" secondAttribute="trailing" constant="57" id="vTc-6R-8B6"/>
+                            <constraint firstItem="0lq-RT-kF2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="wIj-nK-glO"/>
                         </constraints>
                     </view>
                 </viewController>

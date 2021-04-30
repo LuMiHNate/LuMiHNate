@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  HZ
 //
-//  Created by ピタソン・ラニク on 4/30/21.
+//  Created by ピタソン・ラニク.
 //
 
 import UIKit

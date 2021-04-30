@@ -209,7 +209,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSURLSessionDataTask *)dataTaskWithRequest:(NSURLRequest *)request
                             completionHandler:(nullable void (^)(NSURLResponse *response, id _Nullable responseObject,  NSError * _Nullable error))completionHandler;
 
-/**
+/*
  Creates an `NSURLSessionDataTask` with the specified request.
 
  @param request The HTTP request for the request.
@@ -241,7 +241,7 @@ NS_ASSUME_NONNULL_BEGIN
                                          progress:(nullable void (^)(NSProgress *uploadProgress)) uploadProgressBlock
                                 completionHandler:(nullable void (^)(NSURLResponse *response, id _Nullable responseObject, NSError  * _Nullable error))completionHandler;
 
-/**
+/*
  Creates an `NSURLSessionUploadTask` with the specified request for an HTTP body.
 
  @param request The HTTP request for the request.
@@ -269,7 +269,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @name Running Download Tasks
 ///-----------------------------
 
-/**
+/*
  Creates an `NSURLSessionDownloadTask` with the specified request.
 
  @param request The HTTP request for the request.
