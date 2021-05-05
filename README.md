@@ -22,25 +22,22 @@ Social platform for music lovers using Spotify API Integration.
 
 ## Product Spec
 
-### 1. User Stories (Required and Optional)
+### 1. User Stories
 
 **Required Must-have Stories**
 
-* User can create new account
-* User can login[fill in your required user stories here]
-* User can see other users  who have same taste in music...
-* User can pick favorite songs/artists.
-* user can chat with other users who has simillar taste.
-* User can post with the comments.
-* User can go private. 
+- [x] User can create new account
+- [x] User can login to Spotify
+- [x] User can view posts on feed
+- [ ] User has the ability to view their profile & others
+- [ ] Users can view other users' posts by selecting a specific musician
+- [ ] User can toogle whether they prefer their profile and posts to be privated 
 
 **Optional Nice-to-have Stories**
 
-[fill in your required user stories here]
-* User can add/follow them
-* User can like a post/playlist and comments on it ...
-* user can decline/ignore the requests(chatting)
-
+- [ ] User can develop their own taste preferences by selecting their favorite musicians
+- [ ] User can connect with other users based on the attributes of the current song they are listening to
+- [ ] User can privately chat with other users
 
 ### 2. Screen Archetypes
 
@@ -67,11 +64,11 @@ Social platform for music lovers using Spotify API Integration.
 
 **Tab Navigation** (Tab to Screen)
 
-* Home[fill out your first tab]
-* Profile[fill out your second tab]
-* Now Playing[fill out your third tab]
-* Discovery[fill out your fourth tab]
-* Chat page[fill out your fifth tab]
+1. Main Feed/Home
+1. Profile
+1. Now Playing
+1. Discovery
+1. Chat page
 
 **Flow Navigation** (Screen to Screen)
 
@@ -131,7 +128,7 @@ Social platform for music lovers using Spotify API Integration.
 | wallpaper     | File | image profile wallpaper |
 
 ### Networking
-- [Add list of network requests by screen ]
+#### Add list of network requests by screen:
 
 * **Home Feed Screen**
   * (Read/GET) Query all posts where user is author
@@ -203,7 +200,7 @@ Social platform for music lovers using Spotify API Integration.
              }
   * (Update/PUT) Update user profile image
 
-- [Create basic snippets for each Parse network request]
+##### Basic snippets for each Parse network request:
 
 |    CRUD       | HTTP Verb| Description |
 | ------------- | -------- | ------------|
@@ -212,7 +209,7 @@ Social platform for music lovers using Spotify API Integration.
 | Update        | PUT      | 	Changes and/or replaces resources or collections |
 | Delete        | DELETE   | 	Deletes resources|
 
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+##### List endpoints if using existing API: https://developer.spotify.com/:
 
 | HTTP Verb | Endpoint | Description |
 | ----------| -------- | ------------|
