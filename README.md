@@ -88,17 +88,19 @@ Social platform for music lovers using Spotify API Integration.
 * Message Room[list screen navigation here]
 
 ## Wireframes
-<img src ="https://i.imgur.com/EernKaK.jpg" width=900><br>
+<p align="center"><img src ="https://i.imgur.com/EernKaK.jpg" width=800></p><br>
 
 [PDF of Hand/Digital Sketched Wireframe](https://github.com/LuMiHNate/hz/blob/main/wireframes/first_wireframe.pdf)
 
 ### [BONUS] Digital Wireframes & Mockups
 
-<img src ="https://i.imgur.com/tL6KvMZ.png" width=900><br>
+<p align="center"><img src ="https://i.imgur.com/tL6KvMZ.png" width=900></P><br>
 
 [Digital Wireframe Mockup](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-digital-wireframe-mockup.png)
 
 ### [BONUS] Interactive Prototype
+<br>
+<img src ="https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-interactive-prototype.gif" width=500>
 
 [Interactive Prototype](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-interactive-prototype.gif)
 
