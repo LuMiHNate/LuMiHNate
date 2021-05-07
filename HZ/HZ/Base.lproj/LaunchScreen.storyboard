@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hz-logo-ds" translatesAutoresizingMaskIntoConstraints="NO" id="0lq-RT-kF2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hz-white" translatesAutoresizingMaskIntoConstraints="NO" id="0lq-RT-kF2">
                                 <rect key="frame" x="57" y="232" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="225-K1-SHj"/>
@@ -24,7 +25,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.396078431372549" green="0.45490196078431372" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                         <constraints>
                             <constraint firstItem="0lq-RT-kF2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="188" id="W24-mh-F9h"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0lq-RT-kF2" secondAttribute="trailing" constant="57" id="vTc-6R-8B6"/>
@@ -38,6 +39,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hz-logo-ds" width="7293" height="7292"/>
+        <image name="hz-white" width="500" height="500"/>
+        <systemColor name="tertiarySystemFillColor">
+            <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
