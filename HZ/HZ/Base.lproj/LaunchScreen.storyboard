@@ -21,6 +21,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="225-K1-SHj"/>
                                     <constraint firstAttribute="width" constant="300" id="6I7-vb-Wdg"/>
+                                    <constraint firstAttribute="width" secondItem="0lq-RT-kF2" secondAttribute="height" multiplier="1:1" id="PIr-IK-D1X"/>
                                 </constraints>
                             </imageView>
                         </subviews>
