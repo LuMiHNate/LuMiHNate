@@ -31,7 +31,7 @@ Social platform for music lovers using Spotify API Integration.
 - [x] User can view posts on feed
 - [ ] User has the ability to view their profile & others
 - [ ] Users can view other users' posts by selecting a specific musician
-- [ ] User can toogle whether they prefer their profile and posts to be privated 
+- [ ] User can toggle whether they prefer their profile and enable posts to be private
 
 **Optional Nice-to-have Stories**
 
@@ -88,13 +88,13 @@ Social platform for music lovers using Spotify API Integration.
 * Message Room[list screen navigation here]
 
 ## Wireframes
-<img src ="https://i.imgur.com/EernKaK.jpg" width=600><br>
+<img src ="https://i.imgur.com/EernKaK.jpg" width=900><br>
 
 [PDF of Hand/Digital Sketched Wireframe](https://github.com/LuMiHNate/hz/blob/main/wireframes/first_wireframe.pdf)
 
 ### [BONUS] Digital Wireframes & Mockups
 
-<img src ="https://i.imgur.com/SpcGmL3.jpg" width=600><br>
+<img src ="https://i.imgur.com/tL6KvMZ.png" width=900><br>
 
 [Digital Wireframe Mockup](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-digital-wireframe-mockup.png)
 
@@ -228,11 +228,12 @@ Spotify Social Media: Mobile App Dev - App Brainstorming
 1. LuMiHNate
 
 ## App Name Ideas:
-1. Wavelength
+1. **Wavelength**
 2. Blast
 3. MyTune
 4. hertz
 5. Frequency
+6. **hz**
 
 ## Similar Existing Apps
 1. Tastebuds https://tastebuds.fm/ *(music dating app)*
