@@ -121,7 +121,7 @@ typedef NS_ENUM(NSInteger, AFImageDownloadPrioritization) {
                                                         success:(nullable void (^)(NSURLRequest *request, NSHTTPURLResponse  * _Nullable response, UIImage *responseObject))success
                                                         failure:(nullable void (^)(NSURLRequest *request, NSHTTPURLResponse * _Nullable response, NSError *error))failure;
 
-/*
+/**
  Creates a data task using the `sessionManager` instance for the specified URL request.
 
  If the same data task is already in the queue or currently being downloaded, the success and failure blocks are

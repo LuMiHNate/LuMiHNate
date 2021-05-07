@@ -7,6 +7,7 @@
 
 import UIKit
 import Parse
+import SpotifyLogin
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         Parse.initialize(with: parseConfig)
         
+        //spotify stuff
+        SpotifyLogin.shared.configure(clientID: "23183cac7ace4cd284abfb29c8c484b5", clientSecret: "28f288c97a784a5db07df81b37a66b6a", redirectURL: URL(string: "wavelength-social-media://callback")!)
         return true
     }
 

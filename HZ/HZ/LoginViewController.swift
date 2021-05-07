@@ -6,16 +6,28 @@
 //
 
 import UIKit
+import SpotifyLogin
+import NotificationCenter
 
 class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(loginSuccessful),
+                                               name: .SpotifyLoginSuccessful,
+                                               object: nil)
     }
     
-
+    @objc func loginSuccessful() {
+        performSegue(withIdentifier: "loginSuccessful", sender: self)
+    }
+    
+    @IBAction func signIn(_ sender: Any) {
+        SpotifyLoginPresenter.login(from: self, scopes: [.streaming, .userLibraryRead])
+    }
+    
     /*
     // MARK: - Navigation
 
