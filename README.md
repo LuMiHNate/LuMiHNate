@@ -1,8 +1,6 @@
 
-Original App Design Project
+HZ
 ===
-
-# HZ
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -15,6 +13,7 @@ Original App Design Project
 Social platform for music lovers using Spotify API Integration.
 
 ### App Evaluation
+- **Category:** Social Media
 - **Story:** Meeting new people through music, and discovering new music through people.
 - **Market:** Spotify users are hz's market. Ultilizing Spotify's API and the idea of the app itself, hz has unlimited potential for scaling with multiple features.
 - **Habit:** Essentially we will be building a niche social media combined with music sharing. hz will be as addictive as other platforms with a quite sizable userbase.
@@ -26,16 +25,17 @@ Social platform for music lovers using Spotify API Integration.
 
 **Required Must-have Stories**
 
-- [x] User can create new account
+- [x] User can register/login to hz
 - [x] User can login to Spotify
-- [x] User can view posts on feed
-- [ ] User has the ability to view their profile & others
-- [ ] Users can view other users' posts by selecting a specific musician
+- [ ] User can view posts on feed
+- [ ] User can create a post on feed
+- [ ] User can view their profile & others
 - [ ] User can toggle whether they prefer their profile and enable posts to be private
 
 **Optional Nice-to-have Stories**
 
 - [ ] User can develop their own taste preferences by selecting their favorite musicians
+- [ ] Users can view other users' posts by selecting a specific musician
 - [ ] User can connect with other users based on the attributes of the current song they are listening to
 - [ ] User can privately chat with other users
 
