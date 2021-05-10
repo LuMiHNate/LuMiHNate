@@ -25,11 +25,11 @@ Social platform for music lovers using Spotify API Integration.
 
 **Required Must-have Stories**
 
-- [x] User can register/login to hz
+- [] User can register/login to hz
 - [x] User can login to Spotify
 - [ ] User can view posts on feed
-- [x] User can create a post on feed
-- [X] User can view their profile & others
+- [] User can create a post on feed
+- [] User can view their profile & others
 - [ ] User can toggle whether they prefer their profile and enable posts to be private
 
 **Optional Nice-to-have Stories**
