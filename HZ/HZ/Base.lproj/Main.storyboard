@@ -63,7 +63,7 @@
         <!--HomeViewController-->
         <scene sceneID="gKb-HC-77s">
             <objects>
-                <viewController title="HomeViewController" modalPresentationStyle="fullScreen" id="tEJ-DX-CF3" sceneMemberID="viewController">
+                <viewController title="HomeViewController" modalPresentationStyle="fullScreen" id="tEJ-DX-CF3" customClass="HomeViewController" customModule="HZ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fKd-oz-BxR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -302,7 +302,7 @@
         <!--TabBarController-->
         <scene sceneID="Uhn-f2-jXU">
             <objects>
-                <tabBarController title="TabBarController" id="fDJ-D8-98h" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" title="TabBarController" id="fDJ-D8-98h" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Bb5-Lx-EdH"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hoG-5x-TvI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
