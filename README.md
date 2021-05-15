@@ -106,6 +106,7 @@ Social platform for music lovers using Spotify API Integration.
 
 **###Gifs created to show build progress**
 <p align="center"><img src ="http://i.imgur.com/v0KhcKuh.gif" width=800></p><br>
+<img src ="http://i.imgur.com/v0KhcKuh.gif" width=500>
 
 
 ## Schema 
