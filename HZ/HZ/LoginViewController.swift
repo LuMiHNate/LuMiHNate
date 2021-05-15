@@ -11,9 +11,15 @@ import NotificationCenter
 import Parse
 
 class LoginViewController: UIViewController {
+    let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let userID = defaults.string(forKey: "userID")
+        print(userID ?? "nil")
+        if userID != nil {
+            userSpotifyID = userID!
+        }
 
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(loginSuccessful),
@@ -71,6 +77,12 @@ class LoginViewController: UIViewController {
                                 } else {
                                     print("user already exists!")
                                 }
+                                self.defaults.set(currentUser.id, forKey: "userID")
+                                userSpotifyID = currentUser.id
+                                let userID = self.defaults.string(forKey: "userID")
+                                print(userID ?? "nil")
+                                
+                                
                             }
                         }
                         
