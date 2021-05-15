@@ -103,9 +103,10 @@ Social platform for music lovers using Spotify API Integration.
 <img src ="https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-interactive-prototype.gif" width=500>
 
 [Interactive Prototype](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-interactive-prototype.gif)
-**###Gifs created to show build progress**
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/xiUKaip" data-context="false" ><a href="//imgur.com/a/xiUKaip"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+**###Gifs created to show build progress**
+<p align="center"><img src ="http://i.imgur.com/v0KhcKuh.gif" width=800></p><br>
+
 
 ## Schema 
 
