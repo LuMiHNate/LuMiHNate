@@ -105,7 +105,7 @@ Social platform for music lovers using Spotify API Integration.
 [Interactive Prototype](https://github.com/LuMiHNate/hz/blob/main/wireframes/Wireframe-2/hz-interactive-prototype.gif)
 
 **###Gifs created to show build progress**
-<p align="center"><img src ="http://i.imgur.com/v0KhcKuh.gif" width=800></p><br>
+
 <img src ="http://i.imgur.com/v0KhcKuh.gif" width=500>
 
 
