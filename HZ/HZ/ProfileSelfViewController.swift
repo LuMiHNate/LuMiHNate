@@ -1,22 +1,18 @@
 //
-//  HomeViewController.swift
+//  ProfileSelfViewController.swift
 //  HZ
 //
-//  Created by Matthew Soto on 5/14/21.
+//  Created by Hashir Khan on 5/14/21.
 //
 
 import UIKit
-import SpotifyLogin
 
-class HomeViewController: UIViewController {
+class ProfileSelfViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // this is just to test that logging out works
-        // you can comment this out if you don't want to be logged out when you hit the profile screen
-        userSpotifyID = ""
-        SpotifyLogin.shared.logout()
+        // Do any additional setup after loading the view.
     }
     
 
@@ -31,4 +27,3 @@ class HomeViewController: UIViewController {
     */
 
 }
-
