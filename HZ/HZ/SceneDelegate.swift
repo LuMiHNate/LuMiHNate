@@ -11,6 +11,9 @@ import SpotifyLogin
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    
+    //add this so that we can set the access token key in plist
+    let defaults = UserDefaults.standard
 
     func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
          guard let url = URLContexts.first?.url else {
@@ -31,8 +34,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 //user is logged in, go to tab bar controller
                 let main = UIStoryboard(name: "Main", bundle: nil)
                 let tabBarController = main.instantiateViewController(identifier: "TabBarController")
-                
                 self.window?.rootViewController = tabBarController
+                
+                //set access token
+                self.defaults.set(accessToken, forKey: "accessToken")
+                bearerAccessToken = accessToken!
+                
             }
         }
         guard let _ = (scene as? UIWindowScene) else { return }

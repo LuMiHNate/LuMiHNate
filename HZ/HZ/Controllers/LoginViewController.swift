@@ -15,11 +15,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let userID = defaults.string(forKey: "userID")
-        print(userID ?? "nil")
-        if userID != nil {
-            userSpotifyID = userID!
-        }
+        userSpotifyID = defaults.string(forKey: "userID") ?? ""
 
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(loginSuccessful),
@@ -79,10 +75,9 @@ class LoginViewController: UIViewController {
                                 }
                                 self.defaults.set(currentUser.id, forKey: "userID")
                                 userSpotifyID = currentUser.id
-                                let userID = self.defaults.string(forKey: "userID")
-                                print(userID ?? "nil")
                                 
-                                
+                                self.defaults.set(accessToken, forKey: "accessToken")
+                                bearerAccessToken = accessToken!
                             }
                         }
                         
