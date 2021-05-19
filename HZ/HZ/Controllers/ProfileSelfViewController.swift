@@ -12,9 +12,12 @@ class ProfileSelfViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        SpotifyLogin.shared.logout()
         // Do any additional setup after loading the view.
+        
+        // this is just to test that logging out works
+        // you can comment this out if you don't want to be logged out when you hit the profile screen
+        userSpotifyID = ""
+        SpotifyLogin.shared.logout()
     }
     
 

@@ -19,9 +19,12 @@
 		7528D5AB264F6B9B009829D6 /* ProfileSelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528D5AA264F6B9B009829D6 /* ProfileSelfViewController.swift */; };
 		7528D5B9264F6DA9009829D6 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528D5B8264F6DA9009829D6 /* GlobalData.swift */; };
 		F0A696D2264F1B9900881BC5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A696D1264F1B9900881BC5 /* UserData.swift */; };
+<<<<<<< HEAD
 		F0FCFEDA2654070F00009F17 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FCFED92654070F00009F17 /* CreatePostViewController.swift */; };
 		F0FCFEDF265407D900009F17 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FCFEDE265407D900009F17 /* FeedViewController.swift */; };
 		F0FCFEE826555B5100009F17 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FCFEE726555B5100009F17 /* SongCell.swift */; };
+=======
+>>>>>>> main
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +65,12 @@
 		7528D5AA264F6B9B009829D6 /* ProfileSelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSelfViewController.swift; sourceTree = "<group>"; };
 		7528D5B8264F6DA9009829D6 /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
 		F0A696D1264F1B9900881BC5 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		F0FCFED92654070F00009F17 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
 		F0FCFEDE265407D900009F17 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		F0FCFEE726555B5100009F17 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> main
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
