@@ -19,7 +19,6 @@
 		7528D5AB264F6B9B009829D6 /* ProfileSelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528D5AA264F6B9B009829D6 /* ProfileSelfViewController.swift */; };
 		7528D5B9264F6DA9009829D6 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528D5B8264F6DA9009829D6 /* GlobalData.swift */; };
 		F0A696D2264F1B9900881BC5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A696D1264F1B9900881BC5 /* UserData.swift */; };
-		F0A696D7264F1BB100881BC5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A696D6264F1BB100881BC5 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 		7528D5AA264F6B9B009829D6 /* ProfileSelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSelfViewController.swift; sourceTree = "<group>"; };
 		7528D5B8264F6DA9009829D6 /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
 		F0A696D1264F1B9900881BC5 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		F0A696D6264F1BB100881BC5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 				714C4550263C6C8F005FE42D /* LoginViewController.swift */,
 				7528D5B8264F6DA9009829D6 /* GlobalData.swift */,
 				F0A696D1264F1B9900881BC5 /* UserData.swift */,
-				F0A696D6264F1BB100881BC5 /* HomeViewController.swift */,
 			);
 			path = HZ;
 			sourceTree = "<group>";
@@ -338,7 +335,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0A696D7264F1BB100881BC5 /* HomeViewController.swift in Sources */,
 				714C4551263C6C8F005FE42D /* LoginViewController.swift in Sources */,
 				7179B9EB26347CC700A03100 /* AppDelegate.swift in Sources */,
 				F0A696D2264F1B9900881BC5 /* UserData.swift in Sources */,
