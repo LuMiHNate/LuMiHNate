@@ -19,7 +19,9 @@
 		7528D5AB264F6B9B009829D6 /* ProfileSelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528D5AA264F6B9B009829D6 /* ProfileSelfViewController.swift */; };
 		7528D5B9264F6DA9009829D6 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528D5B8264F6DA9009829D6 /* GlobalData.swift */; };
 		F0A696D2264F1B9900881BC5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A696D1264F1B9900881BC5 /* UserData.swift */; };
-		F0A696D7264F1BB100881BC5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A696D6264F1BB100881BC5 /* HomeViewController.swift */; };
+		F0FCFEDA2654070F00009F17 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FCFED92654070F00009F17 /* CreatePostViewController.swift */; };
+		F0FCFEDF265407D900009F17 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FCFEDE265407D900009F17 /* FeedViewController.swift */; };
+		F0FCFEE826555B5100009F17 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FCFEE726555B5100009F17 /* SongCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +62,9 @@
 		7528D5AA264F6B9B009829D6 /* ProfileSelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSelfViewController.swift; sourceTree = "<group>"; };
 		7528D5B8264F6DA9009829D6 /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
 		F0A696D1264F1B9900881BC5 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		F0A696D6264F1BB100881BC5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F0FCFED92654070F00009F17 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		F0FCFEDE265407D900009F17 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F0FCFEE726555B5100009F17 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,17 +118,16 @@
 		7179B9E926347CC700A03100 /* HZ */ = {
 			isa = PBXGroup;
 			children = (
+				F0FCFEE3265407E500009F17 /* Controllers */,
 				7179B9EA26347CC700A03100 /* AppDelegate.swift */,
 				7179B9EC26347CC700A03100 /* SceneDelegate.swift */,
 				7179B9F026347CC700A03100 /* Main.storyboard */,
-				7528D5AA264F6B9B009829D6 /* ProfileSelfViewController.swift */,
+				F0FCFEE726555B5100009F17 /* SongCell.swift */,
 				7179B9F326347CC800A03100 /* Assets.xcassets */,
 				7179B9F526347CC800A03100 /* LaunchScreen.storyboard */,
 				7179B9F826347CC800A03100 /* Info.plist */,
-				714C4550263C6C8F005FE42D /* LoginViewController.swift */,
 				7528D5B8264F6DA9009829D6 /* GlobalData.swift */,
 				F0A696D1264F1B9900881BC5 /* UserData.swift */,
-				F0A696D6264F1BB100881BC5 /* HomeViewController.swift */,
 			);
 			path = HZ;
 			sourceTree = "<group>";
@@ -153,6 +156,17 @@
 				03C3FD5891B746FE5A61E9A0 /* Pods_HZ.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0FCFEE3265407E500009F17 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0FCFED92654070F00009F17 /* CreatePostViewController.swift */,
+				F0FCFEDE265407D900009F17 /* FeedViewController.swift */,
+				714C4550263C6C8F005FE42D /* LoginViewController.swift */,
+				7528D5AA264F6B9B009829D6 /* ProfileSelfViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		FC74BDB2C0CF3E77D0B23AE9 /* Pods */ = {
@@ -338,12 +352,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0A696D7264F1BB100881BC5 /* HomeViewController.swift in Sources */,
 				714C4551263C6C8F005FE42D /* LoginViewController.swift in Sources */,
+				F0FCFEDA2654070F00009F17 /* CreatePostViewController.swift in Sources */,
 				7179B9EB26347CC700A03100 /* AppDelegate.swift in Sources */,
 				F0A696D2264F1B9900881BC5 /* UserData.swift in Sources */,
 				7528D5B9264F6DA9009829D6 /* GlobalData.swift in Sources */,
 				7528D5AB264F6B9B009829D6 /* ProfileSelfViewController.swift in Sources */,
+				F0FCFEDF265407D900009F17 /* FeedViewController.swift in Sources */,
+				F0FCFEE826555B5100009F17 /* SongCell.swift in Sources */,
 				7179B9ED26347CC700A03100 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

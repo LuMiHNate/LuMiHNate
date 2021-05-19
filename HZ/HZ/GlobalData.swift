@@ -7,3 +7,4 @@
 
 import Foundation
 public var userSpotifyID = ""
+public var bearerAccessToken = ""

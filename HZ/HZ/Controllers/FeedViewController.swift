@@ -1,13 +1,13 @@
 //
-//  ProfileSelfViewController.swift
+//  FeedViewController.swift
 //  HZ
 //
-//  Created by Hashir Khan on 5/14/21.
+//  Created by Matthew Soto on 5/18/21.
 //
 
 import UIKit
 
-class ProfileSelfViewController: UIViewController {
+class FeedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +15,10 @@ class ProfileSelfViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func addPostPressed(_ sender: Any) {
+        performSegue(withIdentifier: "addPostSegue", sender: self)
+    }
+    
     /*
     // MARK: - Navigation
 
