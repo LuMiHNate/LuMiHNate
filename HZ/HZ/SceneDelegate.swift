@@ -40,6 +40,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 self.defaults.set(accessToken, forKey: "accessToken")
                 bearerAccessToken = accessToken!
                 
+                userSpotifyID = SpotifyLogin.shared.username!
+                self.defaults.set(userSpotifyID, forKey: "userID")
+                
             }
         }
         guard let _ = (scene as? UIWindowScene) else { return }
