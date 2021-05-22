@@ -27,6 +27,7 @@ Social platform for music lovers using Spotify API Integration.
 
 - [x] User can login to Spotify
 - [x] User can register/login to hz
+- [x] User can logout 
 - [x] User can view posts on feed
 - [x] User can create a post on feed
 - [ ] User can view their profile & others
