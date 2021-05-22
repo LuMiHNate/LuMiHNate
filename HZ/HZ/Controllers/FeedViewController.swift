@@ -6,13 +6,29 @@
 //
 
 import UIKit
+import SpotifyLogin
 
 class FeedViewController: UIViewController {
+    
+    let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func logoutPressed(_ sender: Any) {
+        //clear user information
+        userSpotifyID = ""
+        bearerAccessToken = ""
+        defaults.setValue("", forKey: "userID")
+        
+        //logout user
+        SpotifyLogin.shared.logout()
+        
+        //go back to login screen
+        performSegue(withIdentifier: "logoutPressed", sender: self)
     }
     
     @IBAction func addPostPressed(_ sender: Any) {

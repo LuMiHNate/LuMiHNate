@@ -121,6 +121,9 @@
                     <navigationItem key="navigationItem" id="pSB-dR-ohk">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="4pD-Lj-gee">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="logoutPressed:" destination="HY2-rs-5CV" id="DId-ZH-lmz"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="5ce-mK-ja3">
                             <imageReference key="image" image="plus.bubble" catalog="system" symbolScale="large"/>
@@ -130,6 +133,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="logoutPressed" id="c71-aE-oRz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dv6-b9-iOJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -605,7 +611,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWx-u4-PkN">
-                                <rect key="frame" x="130" y="477.5" width="154" height="50"/>
+                                <rect key="frame" x="130" y="521.5" width="154" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="pWx-u4-PkN" secondAttribute="height" multiplier="153:50" id="ZOO-qU-VHE"/>
@@ -620,7 +626,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wave-green" translatesAutoresizingMaskIntoConstraints="NO" id="8cV-NG-lNr">
-                                <rect key="frame" x="8" y="167" width="398" height="238.5"/>
+                                <rect key="frame" x="8" y="211" width="398" height="238.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="8cV-NG-lNr" secondAttribute="height" multiplier="399:239" id="s3c-HP-kPL"/>
                                 </constraints>
@@ -641,6 +647,7 @@
                             <constraint firstItem="6SK-7A-7Vo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lhB-a6-DVW"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Ocg-Dt-TeB"/>
                     <connections>
                         <segue destination="fDJ-D8-98h" kind="presentation" identifier="loginSuccessful" modalPresentationStyle="fullScreen" id="OJG-6a-IRH"/>
                     </connections>
