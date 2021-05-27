@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -76,13 +76,13 @@
                                 <color key="sectionIndexBackgroundColor" red="0.062745098040000002" green="0.062745098040000002" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="imagePost" rowHeight="418" id="g7R-dh-x3e" customClass="PicturePostCell" customModule="HZ" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="418"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="418"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g7R-dh-x3e" id="X53-ya-8Bv">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="418"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wb0-2j-taR">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headphones-now-playing-page" translatesAutoresizingMaskIntoConstraints="NO" id="Wb0-2j-taR">
                                                     <rect key="frame" x="8" y="8" width="398" height="329"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="Wb0-2j-taR" secondAttribute="height" multiplier="374:309" id="nP2-5m-XpT"/>
@@ -113,28 +113,21 @@
                                                 <constraint firstItem="Wb0-2j-taR" firstAttribute="leading" secondItem="X53-ya-8Bv" secondAttribute="leading" constant="8" id="rvC-7h-dKA"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.062745098040000002" green="0.062745098040000002" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="imagePostView" destination="Wb0-2j-taR" id="2aN-tM-xJf"/>
                                             <outlet property="usernameImagePostLabel" destination="uwW-N4-tcX" id="g2f-4p-2z1"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="musicPost" rowHeight="150" id="XfY-Oa-KIm" customClass="MusicPostCell" customModule="HZ" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="442.5" width="414" height="150"/>
+                                        <rect key="frame" x="0.0" y="446" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XfY-Oa-KIm" id="oj7-2U-3IN">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="erS-FB-rBw">
-                                                    <rect key="frame" x="10" y="36" width="99" height="99"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="99" id="gEN-wp-Wcu"/>
-                                                        <constraint firstAttribute="width" constant="99" id="gba-vH-hSt"/>
-                                                    </constraints>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAw-Sq-I0F">
-                                                    <rect key="frame" x="20" y="11" width="0.0" height="20"/>
+                                                    <rect key="frame" x="12" y="11" width="0.0" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="O3j-tw-7LR"/>
                                                     </constraints>
@@ -163,7 +156,20 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="one-headphone-music-page" translatesAutoresizingMaskIntoConstraints="NO" id="erS-FB-rBw">
+                                                    <rect key="frame" x="20" y="19" width="124" height="112"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="erS-FB-rBw" secondAttribute="height" multiplier="31:28" id="x6F-xt-otj"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="erS-FB-rBw" secondAttribute="bottom" constant="8" id="1Uj-1z-pzr"/>
+                                                <constraint firstItem="erS-FB-rBw" firstAttribute="leading" secondItem="HAw-Sq-I0F" secondAttribute="trailing" constant="8" id="EQr-mJ-IHP"/>
+                                                <constraint firstItem="erS-FB-rBw" firstAttribute="top" secondItem="oj7-2U-3IN" secondAttribute="topMargin" constant="8" id="Hhr-fE-K5Z"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="erS-FB-rBw" secondAttribute="trailing" constant="250" id="a7W-xv-VSh"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="musicArtistLabel" destination="zP6-ir-Bre" id="e1f-FB-WU7"/>
@@ -174,15 +180,17 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="textPost" rowHeight="164" id="zo9-4n-1gv" customClass="TextPostCell" customModule="HZ" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="592.5" width="414" height="164"/>
+                                        <rect key="frame" x="0.0" y="596" width="414" height="164"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zo9-4n-1gv" id="Zae-5X-yXb">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="164"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVG-5a-7qL">
-                                                    <rect key="frame" x="20" y="21" width="374" height="100"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVG-5a-7qL">
+                                                    <rect key="frame" x="28" y="19" width="374" height="126"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="RVG-5a-7qL" secondAttribute="height" multiplier="187:50" id="P69-qH-rTw"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -197,7 +205,15 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="RVG-5a-7qL" firstAttribute="top" secondItem="Zae-5X-yXb" secondAttribute="topMargin" constant="8" id="78D-lK-DSi"/>
+                                                <constraint firstItem="RVG-5a-7qL" firstAttribute="trailing" secondItem="Zae-5X-yXb" secondAttribute="trailingMargin" constant="8" id="Dw4-Wt-F3p"/>
+                                                <constraint firstItem="RVG-5a-7qL" firstAttribute="leading" secondItem="Zae-5X-yXb" secondAttribute="leadingMargin" constant="8" id="MYV-Od-lpI"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="RVG-5a-7qL" secondAttribute="bottom" constant="8" id="fnZ-kQ-Vbg"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="textFieldTextPostLabel" destination="RVG-5a-7qL" id="16w-nQ-lXL"/>
                                             <outlet property="usernameTextPostLabel" destination="unN-Hu-6fx" id="ykR-lG-cLN"/>
@@ -217,7 +233,7 @@
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="5ce-mK-ja3">
-                            <imageReference key="image" image="plus.app" catalog="system" symbolScale="large"/>
+                            <imageReference key="image" image="bubble.left" catalog="system" symbolScale="large"/>
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="u9p-OJ-aiq" kind="show" id="b5R-GI-U9c"/>
@@ -304,7 +320,7 @@
                                     <constraint firstAttribute="width" secondItem="yGJ-0T-o3e" secondAttribute="height" multiplier="398:291" id="sHk-5F-190"/>
                                 </constraints>
                                 <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Music:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eqi-ix-VPT">
-                                    <rect key="frame" x="0.0" y="157.00000034679067" width="398" height="21"/>
+                                    <rect key="frame" x="0.0" y="164" width="398" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
@@ -312,7 +328,7 @@
                                 </label>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SongCell" rowHeight="108" id="hEu-PI-Aao" customClass="SongCell" customModule="HZ" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="398" height="108"/>
+                                        <rect key="frame" x="0.0" y="28" width="398" height="108"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hEu-PI-Aao" id="Vig-mA-vJm">
                                             <rect key="frame" x="0.0" y="0.0" width="398" height="108"/>
@@ -517,7 +533,7 @@
                                 <color key="sectionIndexBackgroundColor" red="0.063815576420000006" green="0.063815576420000006" blue="0.063815576420000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="imagePost" rowHeight="418" id="NFW-du-PQl" customClass="PicturePostCell" customModule="HZ" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="418"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="418"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NFW-du-PQl" id="b18-MV-ur2">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="418"/>
@@ -542,6 +558,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="vKq-nE-Eo6" firstAttribute="leading" secondItem="b18-MV-ur2" secondAttribute="leading" constant="8" id="3z6-xN-aTY"/>
                                                 <constraint firstAttribute="trailing" secondItem="EFS-rb-TxY" secondAttribute="trailing" constant="8" id="7x7-Lt-AHs"/>
@@ -561,7 +578,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="musicPost" rowHeight="150" id="3Jx-dM-bw0" customClass="MusicPostCell" customModule="HZ" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="442.5" width="414" height="150"/>
+                                        <rect key="frame" x="0.0" y="446" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3Jx-dM-bw0" id="Rcf-iS-n3w">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
@@ -615,7 +632,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="textPost" rowHeight="164" id="DsK-9u-zPG" customClass="TextPostCell" customModule="HZ" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="592.5" width="414" height="164"/>
+                                        <rect key="frame" x="0.0" y="596" width="414" height="164"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DsK-9u-zPG" id="lsg-Wf-oXz">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="164"/>
@@ -832,14 +849,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bubble.left" catalog="system" width="128" height="110"/>
         <image name="camera-button" width="180" height="180"/>
         <image name="flag.fill" catalog="system" width="128" height="121"/>
+        <image name="headphones-now-playing-page" width="180" height="180"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="hz-bkgrd-1" width="1125" height="2436"/>
         <image name="hz-bkgrd-2" width="1125" height="2436"/>
         <image name="one-headphone-music-page" width="180" height="180"/>
         <image name="person" catalog="system" width="128" height="117"/>
-        <image name="plus.app" catalog="system" width="128" height="114"/>
         <image name="profile-button" width="180" height="180"/>
         <image name="spotifylogo-32.png" width="32" height="32"/>
         <image name="wave-green" width="500" height="400"/>
